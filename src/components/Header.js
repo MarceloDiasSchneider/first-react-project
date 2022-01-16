@@ -1,10 +1,13 @@
+import Logo from "../img/logo192.png";
+
 function Header() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container-fluid">
+        <img src={Logo} alt="logo" className="logo" />
         <button className="navbar-brand" href="#">
           Navbar
-        </button >
+        </button>
         <button
           className="navbar-toggler"
           type="button"
