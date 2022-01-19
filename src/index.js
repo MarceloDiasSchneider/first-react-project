@@ -4,8 +4,7 @@ import Header from './components/Header';
 import Container from './components/Container';
 import Footer from './components/Footer';
 import reportWebVitals from './reportWebVitals';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './css/style.css'
+import './css/style.css';
 
 ReactDOM.render(
   <React.StrictMode>

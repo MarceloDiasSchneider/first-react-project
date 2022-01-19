@@ -1,5 +1,42 @@
+body {
+  background-color: rgb(50, 56, 56);
+}
 .logo {
   margin: 20px;
   width: 40px;
   height: 40px;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-items {
+  list-style: none;
+  display: flex;
+}
+
+.nav-items > li {
+  padding: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #00000050;
+  text-align: left;
+  color: rgb(252, 239, 222);
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #424242;
+}
+
+footer {
+  text-align: center;
 }
